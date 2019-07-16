@@ -66,12 +66,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     
     //Tells the delegate that new location data is available.
-    /*func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
         print("-------------------------------------")
         print(locations[0].coordinate.latitude)
         print(locations[0].coordinate.longitude)
-    }*/
+    }
     
     
     
